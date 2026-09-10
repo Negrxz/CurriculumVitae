@@ -1,0 +1,104 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.contenedor {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.columna-izquierda {
+  width: 35%;
+  padding: 20px;
+}
+
+.foto {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.nombre {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.apellido {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.titulo {
+  background-color: #444;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.seccion-titulo {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+.texto {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.columna-derecha {
+  width: 65%;
+  padding: 20px;
+  border-left: 3px solid #444;
+}
+
+.item {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  border-left: 2px solid #999;
+}
+
+.item strong {
+  display: block;
+  font-size: 14px;
+}
+
+.item span {
+  font-size: 13px;
+  color: #555;
+}
+
+.idiomas p {
+  font-size: 14px;
+  margin: 6px 0;
+}
